@@ -1,0 +1,29 @@
+{
+  "name": "require-on-demand",
+  "version": "0.1.0-alpha.1",
+  "description": "Require package on demand.",
+  "main": "index.js",
+  "homepage": "https://github.com/sorrycc/require-on-demand",
+  "bugs": {
+    "url": "https://github.com/sorrycc/require-on-demand/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorrycc/require-on-demand"
+  },
+  "scripts": {
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "install-dependency": "^0.1.0",
+    "mkdirp": "^0.5.1",
+    "resolve": "^1.12.0"
+  },
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+  ],
+  "devDependencies": {
+    "np": "^5.1.1"
+  }
+}
